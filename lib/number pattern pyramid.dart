@@ -5,7 +5,7 @@ void main()
   int count=0;
   for(int i=1;i<=rows;i++)
     {
-      for(int j=0;j<=rows-i;j++)
+      for(int j=0;j<=rows+i;j++)
         {
           stdout.write("");
         }
