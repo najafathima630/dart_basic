@@ -1,19 +1,23 @@
 import 'dart:io';
 void main()
-{
-  int rows=5;
-  int count=0;
-  for(int i=1;i<=rows;i++)
+{ int i,j;
+print("enter a number");
+var d=stdin.readLineSync();
+int n=int.parse(d!);
+  for(int i=1;i<=n;i++)
     {
-      for(int j=0;j<=rows+i;j++)
+      for(int j=2;j<=n+1;j++)
         {
-          stdout.write("");
+          stdout.write(" ");
         }
         for(int j=0 ;j<=i;j++)
       {
-        stdout.write("$j");
-        count++;
+        stdout.write(" $j ");
       }
+        for(int j=0;j<=0;j++)
+        {
+          stdout.write( "1");
+        }
       stdout.write("\n");
     }
 }
