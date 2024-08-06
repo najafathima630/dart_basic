@@ -14,7 +14,7 @@ class Bank
    Bank(){//default constructor method in simple intrest
       print(name);
       print(accountnumber);
-   double intrest = (amt + year + rate) / 100;
+   double intrest = (amt *year * rate) / 100;
    print(intrest);
 
 }
